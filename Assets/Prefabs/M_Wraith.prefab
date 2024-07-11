@@ -48,8 +48,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f892bebef444f140aedc6cdc8b7e9ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monsterName: 
   health: 100
   speed: 5
+  damage: 0
+  evasion: 0
+  resilience: 0
   sliderCanvasPrefab: {fileID: 1014509255686860027, guid: 1058396b3b812974dae511d075ec8a2f, type: 3}
   slider: {fileID: 0}
 --- !u!212 &866463524693280347
@@ -167,17 +171,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 2.3424644}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 15, y: 23}
     newSize: {x: 11, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 6.4675703, y: 3.3883953}
   m_EdgeRadius: 0
 --- !u!95 &8945775907422428738
 Animator:

@@ -8,8 +8,8 @@ public class WeaponColliderController : MonoBehaviour
     {
         if (collision.tag == "Monster")
         {
-            Debug.Log("Monster hit!");
-            collision.GetComponent<MonsterController>().DealDamage(10);
+            //Debug.Log("Monster hit!");
+            collision.GetComponent<MonsterController>().TakeDamage(10);
         }
     }
 }
