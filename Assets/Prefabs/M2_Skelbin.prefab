@@ -50,6 +50,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   speed: 5
+  sliderCanvasPrefab: {fileID: 1014509255686860027, guid: 1058396b3b812974dae511d075ec8a2f, type: 3}
+  slider: {fileID: 0}
 --- !u!212 &5482124110391276403
 SpriteRenderer:
   m_ObjectHideFlags: 0
